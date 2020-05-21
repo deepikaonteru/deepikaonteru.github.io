@@ -20,3 +20,45 @@ body
 {
     background-image: 
 }
+
+#info
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.home
+{
+    position: absolute;
+    top: 15em;
+    left: 150px;
+    color: black;
+    font-family: "Source Sans Pro";
+    
+}
+
+.centerdiv
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+}
+
+a i{
+    transition: all 0.3s linear;
+ }
+ 
+ a:hover i{
+     transform: scale(1.4);
+ }
+ 
+ .fa-linkedin{
+     color: #0097e6
+ }
+ 
+ .fa-github{
+     color: black;
+ }
+
