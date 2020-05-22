@@ -24,26 +24,62 @@ body
 #info
 {
     position: sticky;
-    top: 0;
+    top: 25;
     z-index: 10;
 }
 
 .home
 {
     position: absolute;
-    top: 15em;
+    top: 10em;
     left: 150px;
     color: black;
     font-family: "Source Sans Pro";
+
     
 }
 
-.centerdiv
+#icons
 {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: bottom;
+    position: relative;
+    bottom:-500px;
+}
+
+.contact{
+    background-color: #26262A;
+    height: 40vh;
+    max-height: 400px;
+    overflow:hidden;
+
+}
+
+.contact h1{
+    color: white;
+    position: absolute;
+    font-size: 60px;
+    font-family: "Tenor Sans", sans-serif;
+    width: 900px;
+    text-align: center;
+    left: calc(50vw - 450px);
+    top: 10vh;
+}
+
+#icon1{
+    position: absolute;
+    top: 26vh;
+    left: calc(44vw - 15px);
+}
+
+#icon2{
+    position: absolute;
+    top: 26vh;
+    left: calc(48vw - 15px);
+}
+
+#icon3{
+    position: absolute;
+    top: 26vh;
+    left: calc(52vw - 15px);
 }
 
 a i{
@@ -61,4 +97,3 @@ a i{
  .fa-github{
      color: black;
  }
-
