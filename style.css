@@ -21,28 +21,49 @@ body
     background-image: 
 }
 
-#info
-{
-    position: sticky;
-    top: 25;
-    z-index: 10;
-}
-
-.home
+#home
 {
     position: absolute;
     top: 10em;
     left: 150px;
     color: black;
     font-family: "Source Sans Pro";
+    float: left;
+    background-image: linear-gradient(to bottom right, skyblue, yellow);
+}
 
-    
+#home p { 
+    line-height: 1.8; 
+  }
+
+#home .curve { 
+    width: 33%
+    height: auto;
+    min-width: 150px;
+    float: left;
+    margin-right:2rem; 
+    border-radius: 2000px;
+    shape-outside:circle();
+}
+
+#home h1
+{
+    height: 100vh;
+    width: 100vh;
+    overflow:hidden;
+}
+
+#home h1 p
+{
+    height: 100vh;
+    max-height: 400px;
+    overflow:hidden;
 }
 
 #icons
 {
     position: relative;
-    bottom:-500px;
+    bottom:-1000px;
 }
 
 .contact{
@@ -50,7 +71,6 @@ body
     height: 40vh;
     max-height: 400px;
     overflow:hidden;
-
 }
 
 .contact h1{
