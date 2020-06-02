@@ -6,7 +6,7 @@
 
 body
 {
-    font-family: sans-serif;
+    font-family:  Andale Mono;
 }
 
 #nav-bar
@@ -23,14 +23,18 @@ body
 
 #home
 {
-    position: absolute;
     top: 10em;
     left: 150px;
     color: black;
-    font-family: "Source Sans Pro";
+    font-family: "Trattatello, fantasy";
     float: left;
-    background-image: linear-gradient(to bottom right, skyblue, yellow);
+    height:100%;
+    width: 100%;
+    text-align: center;
+    background-image: url("");
+
 }
+
 
 #home p { 
     line-height: 1.8; 
@@ -40,8 +44,8 @@ body
     width: 33%
     height: auto;
     min-width: 150px;
-    float: left;
-    margin-right:2rem; 
+    float: bottom-right;
+    margin: 20;
     border-radius: 2000px;
     shape-outside:circle();
 }
@@ -58,46 +62,77 @@ body
     height: 100vh;
     max-height: 400px;
     overflow:hidden;
+    text-align: center;
+
+}
+
+#aboutme
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height:100%;
+    width: 100%;
+    overflow:hidden;
+
+}
+
+#dropdown-menu
+{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+.wics-card{
+    height:100%;
+    width:100%;
+}
+.card-deck
+{
+    color: black;
+    float: left;
+    height:100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, skyblue, pink);
+    text-align: center;
+}
+
+#skills
+{
+    color: black;
+    float: left;
+    height:100%;
+    width: 100%;
 }
 
 #icons
 {
-    position: relative;
+    height:100%;
+    width: 100%;
     bottom:-1000px;
 }
 
 .contact{
-    background-color: #26262A;
-    height: 40vh;
-    max-height: 400px;
-    overflow:hidden;
+    color: white;
+    background-image: url("images/coffee.jpeg");
+    float: left;
+    height:100vh;
+    width: 100%;
+    text-align: center;
 }
 
-.contact h1{
-    color: white;
-    position: absolute;
-    font-size: 60px;
-    font-family: "Tenor Sans", sans-serif;
-    width: 900px;
-    text-align: center;
-    left: calc(50vw - 450px);
-    top: 10vh;
-}
 
 #icon1{
-    position: absolute;
     top: 26vh;
     left: calc(44vw - 15px);
 }
 
 #icon2{
-    position: absolute;
     top: 26vh;
     left: calc(48vw - 15px);
 }
 
 #icon3{
-    position: absolute;
     top: 26vh;
     left: calc(52vw - 15px);
 }
@@ -117,3 +152,4 @@ a i{
  .fa-github{
      color: black;
  }
+
